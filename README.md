@@ -22,7 +22,7 @@ And, there are some notice you have to know.
 
 ## How to use 
 
-#### clone the project and import into your eclipse
+#### Clone the project and import into your eclipse
 
 ```
 $ git clone https://github.com/ChiLunHuang/CKIPClient-AutoPOS.git
@@ -36,7 +36,7 @@ $ git clone https://github.com/ChiLunHuang/CKIPClient-AutoPOS.git
  ArrayList<String> TagList = new ArrayList<String>();   //POS
 ```
 
-#### input account and sentences
+#### Input account and sentences
 
 
 ```java
@@ -58,7 +58,16 @@ for (Term t : c.getTerm()) {
         }
          
 ```
+#### Result of POS 
 
+```
+今天	N
+天氣	N
+真	ADV
+好	Vi
+耶	T
+!	EXCLAMATIONCATEGORY
+```
 
 
 ## Sample code
