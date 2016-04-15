@@ -18,15 +18,50 @@ And, there are some notice you have to know.
 
 ## Get the necessary jar
 
-> To [http://www.java2s.com](http://www.java2s.com/Code/Jar/c/Downloadckipclient043jar.htm) get `ckipclient-0.4.3-sources.jar` or you can directly clone the jar from [GitHub Page](https://github.com/ChiLunHuang/CKIPClient-AutoPOS/blob/master/CKIPproject/ckipclient-0.4.3.jar)
+> To [http://www.java2s.com](http://www.java2s.com/Code/Jar/c/Downloadckipclient043jar.htm) get `ckipclient-0.4.3-sources.jar` or you can directly clone the jar from [GitHub Page](https://github.com/ChiLunHuang/CKIPClient-AutoPOS/blob/master/CKIPproject/ckipclient-0.4.3.jar).
 
 ## How to use 
 
-clone the project and import into your eclipse
+#### clone the project and import into your eclipse
 
 ```
 $ git clone https://github.com/ChiLunHuang/CKIPClient-AutoPOS.git
 ```
+
+#### Open wordSegment.java and declare class and ArrayList
+
+```java
+ WordSegmentationService c; //宣告一個class變數c
+ ArrayList<String> inputList = new ArrayList<String>(); //words
+ ArrayList<String> TagList = new ArrayList<String>();   //POS
+```
+
+#### input account and sentences
+
+
+```java
+c = new CKIP( "IP address" , port, "account", "password"); //輸入申請的IP、port、帳號、密碼
+
+String s = "今天天氣真好耶!";
+```
+
+#### Sent the sentence to CKIP server and get result to lists
+
+```java
+c.setRawText(s);
+c.send(); //傳送至中研院斷詞系統服務使用
+         
+for (Term t : c.getTerm()) {
+           
+	inputList.add(t.getTerm()); // t.getTerm()會讀到斷詞的String，將其存到inputList陣列
+        TagList.add(t.getTag());    // t.getTag() 會讀到斷詞的詞性，將其存到TagList陣列
+        }
+         
+```
+
+
+
+## Sample code
 
 ```java
 package Segment;
