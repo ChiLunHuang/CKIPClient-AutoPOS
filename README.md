@@ -1,7 +1,7 @@
 # CKIPClient-AutoPOS
 This project is an example for using java to getting POS from CKIP (中研院斷詞系統) at client.
 
-[CKIP](http://ckipsvr.iis.sinica.edu.tw/) is a natural language parser for traditional chinaese.
+[CKIP](http://ckipsvr.iis.sinica.edu.tw/) is a natural language parser for traditional chinese.
 
 In order to easily use the the client program to get the structure of sentences, instead of using the online resourse provided by [CKIP online resourse](http://ckipsvr.iis.sinica.edu.tw/resource.htm), this project provide another way to connect to the CKIP server in java code. 
 
