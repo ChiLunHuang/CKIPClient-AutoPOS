@@ -8,10 +8,14 @@ In order to easily use the the client program to get the structure of sentences,
 
 Before starting, you can check some documents on CKIP to understand some [meaning of tages](http://ckipsvr.iis.sinica.edu.tw/cat.htm) or concepts about [how CKIP work](http://sunlight.iis.sinica.edu.tw/uwextract/demo.htm).
 
-## First step, sign in 
+## Sign in
 
 >[To get the account](http://ckipsvr.iis.sinica.edu.tw/reg.php)
 
 And, there are some notice you have to know.
 
 >[Description of service](http://ckipsvr.iis.sinica.edu.tw/webservice.htm)
+
+## Get the necessary jar
+
+> To http://www.java2s.com get  [ckipclient-0.4.3-sources.jar](http://www.java2s.com/Code/Jar/c/Downloadckipclient043jar.htm)
