@@ -1,0 +1,6 @@
+今天	N
+天氣	N
+真	ADV
+好	Vi
+耶	T
+!	EXCLAMATIONCATEGORY
