@@ -18,4 +18,4 @@ And, there are some notice you have to know.
 
 ## Get the necessary jar
 
-> To http://www.java2s.com get  [ckipclient-0.4.3-sources.jar](http://www.java2s.com/Code/Jar/c/Downloadckipclient043jar.htm) or you can directly clone the jar from [GitHub Page](https://github.com/ChiLunHuang/CKIPClient-AutoPOS/blob/master/CKIPproject/ckipclient-0.4.3.jar)
+> To [http://www.java2s.com](http://www.java2s.com/Code/Jar/c/Downloadckipclient043jar.htm) get `ckipclient-0.4.3-sources.jar` or you can directly clone the jar from [GitHub Page](https://github.com/ChiLunHuang/CKIPClient-AutoPOS/blob/master/CKIPproject/ckipclient-0.4.3.jar)
