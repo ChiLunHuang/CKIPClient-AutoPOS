@@ -87,7 +87,7 @@ public class wordSegment {
          
         System.out.println("********** 使用中研院斷詞伺服器 *********");
          
-        c = new CKIP( "140.109.19.104" , 1501, "a505192002", "a505192002"); //輸入申請的IP、port、帳號、密碼
+        c = new CKIP( "IP address" , port, "account", "password"); //輸入申請的IP、port、帳號、密碼
          
         c.setRawText(s);
         c.send(); //傳送至中研院斷詞系統服務使用
